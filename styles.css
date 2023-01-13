@@ -1,0 +1,65 @@
+body {
+    min-width: 400px;
+    min-height: 100px;
+    background-color:rgb(84, 95, 107);
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-style: Trebuchet;
+    color: white;
+    padding-left: 10px;
+}
+
+
+#refresh {
+    padding-left: 150px;
+}
+
+#settingLabel {
+    padding-left:7px;
+}
+
+.settings {
+    display: none;
+    list-style: none;
+    min-height:70px;
+    color: rgb(99, 112, 126);
+    font-size: 14px;
+    font-style: Trebuchet;
+    padding-left: 8px;
+    padding-top: 8px;
+    color: white;
+
+}
+
+#inputField {
+    margin-top: 50px;
+    margin-left:10px;
+    height: 20px;
+}
+#dateField {
+    margin-top: 50px;
+    height: 20px;
+}
+#newTask {
+    color:rgb(84, 95, 107);
+    font-style:Trebuchet;
+    height:26px;
+}
+
+.todolist {
+    line-height:2em;
+    color: white;
+    font-size: 14px;
+    font-style: Trebuchet;
+    margin-top: 5px;
+    list-style: none;
+    padding:10px;
+}
+
+.completedTasks {
+    display:none;
+}
+

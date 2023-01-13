@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>ToDo List<label id = "refresh">🔃</label><label id = "settingLabel">⚙️</label></h1>
+        <div class = "settings" id = "setting">
+            <label id = labelSet>Settings:</label>
+            <li>
+                <button id = "history">See task history</button>
+                <button id = "clear">Clear all tasks</button>
+                <button id = "clearHistory">Clear task history</button>
+                <div class = "sorting">
+                    <select id = "sortingOpt">
+                        <option value = 0>Sort by: default</option>
+                        <option value = 1>Alphabetical order</option>
+                        <option value = 2>Due date</option>
+                    </select>
+                </div>
+            </li>
+        <div class = "completedTasks" id = "completedTasks">
+            <label id = labelSet>Completed Tasks:</label>
+            <ul class = "list" id = "list"></ul>
+            <button id = "closeTasks">Close </button>
+        </div>
+        </div>
+        <div class = "container">
+            <ul class = "todo" id = "todostorage"></ul>
+            <ul class = "completed" id = "completed"></ul>
+            <ul class = "todolist" id = "todolist"></ul>
+            <ul class = "original" id = "original"></ul>
+            <div class = "sortingOption" id = "sortingOption"></div>
+            <span class = "deleteButtons" id = "deleteButtons"></span>
+            <div class = "taskName" id = "taskName"> </div>
+            <div class = "taskDate" id = "taskDate"> </div>
+            <div class = "editIcon" id = "editIcon"></div>
+            <input id = "inputField" type = "text" placeholder = "Task"><input id = "dateField" type = "text" placeholder = "mm/dd/yyyy"><button id = "newTask">+</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
